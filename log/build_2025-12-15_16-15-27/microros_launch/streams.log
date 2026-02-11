@@ -1,0 +1,22 @@
+[0.429s] Invoking command in '/home/lattapol/microros_ws/src/microros_launch': PYTHONPATH=/home/lattapol/microros_ws/build/microros_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lattapol/microros_ws/install/microros_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/microros_launch build --build-base /home/lattapol/microros_ws/build/microros_launch/build install --record /home/lattapol/microros_ws/build/microros_launch/install.log --single-version-externally-managed install_data
+[0.569s] running egg_info
+[0.569s] writing ../../build/microros_launch/microros_launch.egg-info/PKG-INFO
+[0.569s] writing dependency_links to ../../build/microros_launch/microros_launch.egg-info/dependency_links.txt
+[0.569s] writing entry points to ../../build/microros_launch/microros_launch.egg-info/entry_points.txt
+[0.569s] writing requirements to ../../build/microros_launch/microros_launch.egg-info/requires.txt
+[0.569s] writing top-level names to ../../build/microros_launch/microros_launch.egg-info/top_level.txt
+[0.570s] reading manifest file '../../build/microros_launch/microros_launch.egg-info/SOURCES.txt'
+[0.570s] writing manifest file '../../build/microros_launch/microros_launch.egg-info/SOURCES.txt'
+[0.570s] running build
+[0.570s] running build_py
+[0.571s] running install
+[0.571s] running install_lib
+[0.571s] running install_data
+[0.571s] creating /home/lattapol/microros_ws/install/microros_launch/share/microros_launch/launch
+[0.571s] copying launch/micro_ros_agent.launch.py -> /home/lattapol/microros_ws/install/microros_launch/share/microros_launch/launch
+[0.571s] running install_egg_info
+[0.572s] removing '/home/lattapol/microros_ws/install/microros_launch/lib/python3.10/site-packages/microros_launch-0.0.0-py3.10.egg-info' (and everything under it)
+[0.572s] Copying ../../build/microros_launch/microros_launch.egg-info to /home/lattapol/microros_ws/install/microros_launch/lib/python3.10/site-packages/microros_launch-0.0.0-py3.10.egg-info
+[0.572s] running install_scripts
+[0.584s] writing list of installed files to '/home/lattapol/microros_ws/build/microros_launch/install.log'
+[0.596s] Invoked command in '/home/lattapol/microros_ws/src/microros_launch' returned '0': PYTHONPATH=/home/lattapol/microros_ws/build/microros_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lattapol/microros_ws/install/microros_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/microros_launch build --build-base /home/lattapol/microros_ws/build/microros_launch/build install --record /home/lattapol/microros_ws/build/microros_launch/install.log --single-version-externally-managed install_data

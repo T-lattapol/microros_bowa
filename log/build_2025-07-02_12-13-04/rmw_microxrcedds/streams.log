@@ -1,0 +1,31 @@
+[0.009s] Invoking command in '/home/lattapol/microros_ws/build/rmw_microxrcedds': CMAKE_PREFIX_PATH=/home/lattapol/microros_ws/install/micro_ros_msgs:/home/lattapol/microros_ws/install/micro_ros_setup:/home/lattapol/microros_ws/install/micro_ros_agent:/home/lattapol/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/lattapol/ydlidar_ros2_ws/install/turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/lattapol/microros_ws/install/micro_ros_msgs/lib:/home/lattapol/microros_ws/install/micro_ros_agent/lib:/home/lattapol/ydlidar_ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/lattapol/microros_ws/src/rmw-microxrcedds/rmw_microxrcedds_c -DCMAKE_INSTALL_PREFIX=/home/lattapol/microros_ws/install/rmw_microxrcedds
+[0.094s] -- The C compiler identification is GNU 11.4.0
+[0.101s] -- Detecting C compiler ABI info
+[0.151s] -- Detecting C compiler ABI info - done
+[0.155s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.156s] -- Detecting C compile features
+[0.156s] -- Detecting C compile features - done
+[0.157s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.260s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.311s] -- Found rcutils: 5.1.6 (/opt/ros/humble/share/rcutils/cmake)
+[0.316s] -- Found rosidl_runtime_c: 3.1.6 (/opt/ros/humble/share/rosidl_runtime_c/cmake)
+[0.323s] -- Configuring incomplete, errors occurred!
+[0.324s] See also "/home/lattapol/microros_ws/build/rmw_microxrcedds/CMakeFiles/CMakeOutput.log".
+[0.324s] [31mCMake Error at CMakeLists.txt:30 (find_package):
+[0.324s]   By not providing "Findmicroxrcedds_client.cmake" in CMAKE_MODULE_PATH this
+[0.324s]   project has asked CMake to find a package configuration file provided by
+[0.324s]   "microxrcedds_client", but CMake did not find one.
+[0.324s] 
+[0.324s]   Could not find a package configuration file provided by
+[0.324s]   "microxrcedds_client" with any of the following names:
+[0.324s] 
+[0.324s]     microxrcedds_clientConfig.cmake
+[0.324s]     microxrcedds_client-config.cmake
+[0.324s] 
+[0.324s]   Add the installation prefix of "microxrcedds_client" to CMAKE_PREFIX_PATH
+[0.324s]   or set "microxrcedds_client_DIR" to a directory containing one of the above
+[0.324s]   files.  If "microxrcedds_client" provides a separate development package or
+[0.324s]   SDK, be sure it has been installed.
+[0.324s] 
+[0.324s] [0m
+[0.354s] Invoked command in '/home/lattapol/microros_ws/build/rmw_microxrcedds' returned '1': CMAKE_PREFIX_PATH=/home/lattapol/microros_ws/install/micro_ros_msgs:/home/lattapol/microros_ws/install/micro_ros_setup:/home/lattapol/microros_ws/install/micro_ros_agent:/home/lattapol/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/lattapol/ydlidar_ros2_ws/install/turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/lattapol/microros_ws/install/micro_ros_msgs/lib:/home/lattapol/microros_ws/install/micro_ros_agent/lib:/home/lattapol/ydlidar_ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/lattapol/microros_ws/src/rmw-microxrcedds/rmw_microxrcedds_c -DCMAKE_INSTALL_PREFIX=/home/lattapol/microros_ws/install/rmw_microxrcedds

@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:30 (find_package):
+  By not providing "Findmicroxrcedds_client.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "microxrcedds_client", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "microxrcedds_client" with any of the following names:
+
+    microxrcedds_clientConfig.cmake
+    microxrcedds_client-config.cmake
+
+  Add the installation prefix of "microxrcedds_client" to CMAKE_PREFIX_PATH
+  or set "microxrcedds_client_DIR" to a directory containing one of the above
+  files.  If "microxrcedds_client" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m

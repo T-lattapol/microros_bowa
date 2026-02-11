@@ -1,0 +1,24 @@
+[0.008s] Invoking command in '/home/lattapol/microros_ws/build/rmw_microxrcedds': CMAKE_PREFIX_PATH=/home/lattapol/microros_ws/install/micro_ros_msgs:/home/lattapol/microros_ws/install/micro_ros_setup:/home/lattapol/microros_ws/install/micro_ros_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/lattapol/microros_ws/install/micro_ros_msgs/lib:/home/lattapol/microros_ws/install/micro_ros_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/lattapol/microros_ws/src/rmw-microxrcedds/rmw_microxrcedds_c -DCMAKE_INSTALL_PREFIX=/home/lattapol/microros_ws/install/rmw_microxrcedds
+[0.017s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.098s] -- Found rcutils: 5.1.7 (/opt/ros/humble/share/rcutils/cmake)
+[0.103s] -- Found rosidl_runtime_c: 3.1.7 (/opt/ros/humble/share/rosidl_runtime_c/cmake)
+[0.110s] [31mCMake Error at CMakeLists.txt:30 (find_package):
+[0.110s]   By not providing "Findmicroxrcedds_client.cmake" in CMAKE_MODULE_PATH this
+[0.110s]   project has asked CMake to find a package configuration file provided by
+[0.111s]   "microxrcedds_client", but CMake did not find one.
+[0.111s] 
+[0.111s]   Could not find a package configuration file provided by
+[0.111s]   "microxrcedds_client" with any of the following names:
+[0.111s] 
+[0.111s]     microxrcedds_clientConfig.cmake
+[0.111s]     microxrcedds_client-config.cmake
+[0.111s] 
+[0.111s]   Add the installation prefix of "microxrcedds_client" to CMAKE_PREFIX_PATH
+[0.111s]   or set "microxrcedds_client_DIR" to a directory containing one of the above
+[0.111s]   files.  If "microxrcedds_client" provides a separate development package or
+[0.111s]   SDK, be sure it has been installed.
+[0.111s] 
+[0.111s] [0m
+[0.112s] -- Configuring incomplete, errors occurred!
+[0.112s] See also "/home/lattapol/microros_ws/build/rmw_microxrcedds/CMakeFiles/CMakeOutput.log".
+[0.113s] Invoked command in '/home/lattapol/microros_ws/build/rmw_microxrcedds' returned '1': CMAKE_PREFIX_PATH=/home/lattapol/microros_ws/install/micro_ros_msgs:/home/lattapol/microros_ws/install/micro_ros_setup:/home/lattapol/microros_ws/install/micro_ros_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/lattapol/microros_ws/install/micro_ros_msgs/lib:/home/lattapol/microros_ws/install/micro_ros_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/lattapol/microros_ws/src/rmw-microxrcedds/rmw_microxrcedds_c -DCMAKE_INSTALL_PREFIX=/home/lattapol/microros_ws/install/rmw_microxrcedds
